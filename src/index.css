@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+var {
+  --color-red-primary: hsl(355, 100%, 74%);
+  --color-red-secondary: hsl(356, 100%, 66%);
+  --color-blue-primary: hsl(208, 49%, 24%);
+
+  --color-white: hsl(0, 100%, 100%);
+  --color-gray-600: hsl(207, 13%, 34%);
+  --color-gray-900: hsl(240, 10%, 16%);
+
+  --color-bg-orange: hsl(13, 100%, 72%);
+  --color-bg-red: hsl(353, 100%, 62%);
+
+  --color-bg-purple: hsl(237, 17%, 21%);
+  --color-bg-purple-900: hsl(237, 23%, 31%);
+
+  --font-family-overpass: "Overpass", sans-serif;
+  --font-family-ubuntu: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: var(--font-family-ubuntu);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
